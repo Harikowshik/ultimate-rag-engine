@@ -1,0 +1,16 @@
+# Ultimate RAG Pipeline Requirements
+streamlit>=1.30.0
+requests>=2.28.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+
+# Vector Database (Local Indexing Engine)
+chromadb>=0.4.0
+faiss-cpu>=1.7.4
+
+# Primary Model Provider API (Google Gemini for Embeddings & LLM Generation)
+google-generativeai>=0.3.0
+
+# Optional Secondary Provider API
+openai>=1.10.0
